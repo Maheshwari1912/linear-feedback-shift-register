@@ -29,3 +29,12 @@ If rst is high, the LFSR is reset to its initial state (4'b0001).
 **Encryption & Cryptography** – Used in stream ciphers for secure data transmission.
 
 This 4-bit LFSR will generate a pseudo-random sequence before repeating itself, depending on the initial seed and feedback function. 
+
+**simulation results:**
+
+![image](https://github.com/user-attachments/assets/ca7ccaa4-39fd-4013-a9ae-b8d7e4d77ecd)
+
+**schematic:**
+
+![image](https://github.com/user-attachments/assets/b7c9a056-418d-45b9-8015-3840b1716627)
+
