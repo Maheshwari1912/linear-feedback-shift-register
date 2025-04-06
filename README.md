@@ -34,6 +34,14 @@ This 4-bit LFSR will generate a pseudo-random sequence before repeating itself, 
 
 ![image](https://github.com/user-attachments/assets/ca7ccaa4-39fd-4013-a9ae-b8d7e4d77ecd)
 
+**Explanation:**
+
+**1. Feedback Calculation:** feedback is obtained by XORing the output of the 3rd and 4th bits. 
+
+**2. Shift and Update:** At each clock edge, the LFSR shifts left, and the feedback bit is inserted into the least significant position (bit 0). 
+
+**3. Initial State:** On reset, the LFSR is initialized to 0001, which prevents it from getting stuck in 
+
 **schematic:**
 
 ![image](https://github.com/user-attachments/assets/b7c9a056-418d-45b9-8015-3840b1716627)
